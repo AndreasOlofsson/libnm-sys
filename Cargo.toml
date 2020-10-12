@@ -1,0 +1,17 @@
+[package]
+name = "libnm-sys"
+description = "FFI bindings for libnm"
+version = "0.1.0"
+license = "MIT"
+authors = ["Andreas Olofsson <ao@blazar.se>"]
+repository = "https://github.com/AndreasOlofsson/libnm-sys/"
+edition = "2018"
+build = "build.rs"
+
+[build-dependencies]
+pkg-config = "0.3.18"
+
+[dependencies]
+glib-sys = "0.10.1"
+gobject-sys = "0.10.0"
+gio-sys = "0.10.1"
