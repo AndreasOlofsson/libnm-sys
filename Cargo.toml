@@ -1,7 +1,7 @@
 [package]
 name = "libnm-sys"
 description = "FFI bindings for libnm"
-version = "0.1.0"
+version = "0.2.0"
 license = "MIT"
 authors = ["Andreas Olofsson <ao@blazar.se>"]
 repository = "https://github.com/AndreasOlofsson/libnm-sys/"
